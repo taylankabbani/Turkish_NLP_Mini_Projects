@@ -1,8 +1,11 @@
 # Turkish NLP Mini Projects
 
-## N-grams_Science_columnist Project:
-In this project, N-gram models are being created from a scraped initial corpus of Science Column articles written in the Turkish language (https://www.biomedya.com/). N-grams models are being used to generated random sentence samples.
-
+## N-grams Science Columnist Project:
+In this project, N-gram models are being created from a scraped initial corpus of Science Column articles written in the Turkish language (https://www.biomedya.com/). N-grams models are being used to generated random sentence samples.//
+### Python Required Libraries
+1. Scrapy 
+2. Corpus-py (https://github.com/taylankabbani/Corpus-Py.git)
+3. N-Gram-py (https://github.com/taylankabbani/NGram-Py.git)
 1. Scrapy:
 * used to scrape the science columnists articles from https://www.biomedya.com/, spider object will return CSV file with three column (Title, Url, Text).
 
