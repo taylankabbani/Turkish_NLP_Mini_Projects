@@ -9,20 +9,12 @@ In this project, N-gram models are being created from a scraped initial corpus o
 2. [Corpus-py](https://github.com/taylankabbani/Corpus-Py.git)
 3. [N-Gram-py](https://github.com/taylankabbani/NGram-Py.git)
 
-  1. Scraping the Corpus data:
-   * 94 science column articles were crawled from https://www.biomedya.com/.
-   * article_spyder.py file is a spider object which returns CSV file with three columns (Title, Url, Text).
-
-
-
-* In the terminal navigate to :
-cd //..../N-grams_Science_columnist/Scrapy/Science_Columnist_Articles
-
-* Activate anaconda in case Scrapy is not in pip.
-conda activate
-
-* Run article_spyder.py spider object
-scrapy runspider article_spyder.py -o raw_articles.csv
-
-2. N-gram:
-The scraped corpus contain 95 science columnist articles, 39759 words. For turkish language Corpus package is used
+   1. Scraping the Corpus data:
+      * 94 science column articles were crawled from https://www.biomedya.com/.
+      * article_spyder.py file is a spider object which returns CSV file with three columns (Title, Url, Text).
+      * In the terminal navigate to :\
+        `cd //..../N-grams_Science_columnist/Scrapy/Science_Columnist_Articles`\
+        `conda activate`\
+        `scrapy runspider article_spyder.py -o raw_articles.csv`
+   2. N-gram:
+      * The scraped corpus contain 95 science columnist articles, 39759 words. For turkish language Corpus package is used
